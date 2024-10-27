@@ -2,8 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
-      <div>
+      <>
         <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
           <Link href="">Rebvar Ebrahimi</Link>
         </h1>
@@ -13,7 +12,6 @@ export default function Header() {
         <p className="mt-4 max-w-xs leading-normal">
           I&apos;m a software engineer specializing in building (and occasionally designing) exceptional digital experiences.
         </p>
-      </div>
-    </header>
+      </>
   );
 }

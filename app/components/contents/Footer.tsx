@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
+    <>
       <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
         <li className="mr-5 text-xs shrink-0">
           <a
@@ -99,6 +99,6 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-    </div>
+    </>
   );
 }

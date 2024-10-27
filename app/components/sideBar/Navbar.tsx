@@ -3,8 +3,11 @@ import Link from "next/link";
 export default function Navbar({ activeSection }: { activeSection: string }) {
   const sections = ["about", "experience", "projects", "contact"];
   return (
-    <nav className="nav hidden lg:block lg:mt-0">
-      <ul className="mt-8 w-max">
+    <nav
+      className="nav hidden lg:block lg:mt-0"
+      aria-label="In-page jump links"
+    >
+      <ul className="mt-16 w-max">
         {sections.map((section) => (
           <li key={section}>
             <Link
