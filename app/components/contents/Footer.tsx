@@ -7,7 +7,7 @@ export default function Footer() {
         <li className="mr-5 text-xs shrink-0">
           <a
             className="block hover:text-slate-200"
-            href="https://github.com/yourusername"
+            href="https://github.com/rebvar-ebra"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="GitHub (opens in a new tab)"
@@ -29,7 +29,7 @@ export default function Footer() {
         <li className="mr-5 text-xs shrink-0">
           <a
             className="block hover:text-slate-200"
-            href="https://www.linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/rebvar-ebrahimi"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="LinkedIn (opens in a new tab)"
